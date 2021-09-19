@@ -190,3 +190,32 @@ section{
         flex-direction: column;
     }
 }
+.sec_nav{
+    justify-content: center;
+}
+.sec_nav nav li{
+    float: left;
+    padding: 25px;
+}
+.sec_nav nav li:last-child{
+    background-color: #2C53C9;
+    color: white;
+    border-radius: 25px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+footer div{
+    margin: 20px;
+}
+
+@media (max-width: 700px) {
+    footer{
+        flex-direction: column;
+    }
+}
